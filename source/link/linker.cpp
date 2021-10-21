@@ -209,7 +209,7 @@ spv_result_t GenerateHeader(const MessageConsumer& consumer,
   header->version = version;
   header->generator = 17u;
   header->bound = max_id_bound;
-  header->reserved = 0u;
+  header->schema = 0u;
 
   return SPV_SUCCESS;
 }
